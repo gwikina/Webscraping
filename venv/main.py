@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup as bs
 
 # gets url requests
 github_user = input('Input Github User: ')
-url = 'https://github.com/' + github_user
+url = 'https://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:x-oauth-basic@github.com/' + github_user
 r = requests.get(url)
 
 # parsed through github source code
